@@ -67,16 +67,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Homepage.aspx" />
+    <Content Include="example.aspx" />
+    <Content Include="pics\424px-Temple_T_logo.svg.png" />
+    <Content Include="templebranding.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Homepage.aspx.cs">
-      <DependentUpon>Homepage.aspx</DependentUpon>
+    <Compile Include="example.aspx.cs">
+      <DependentUpon>example.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Homepage.aspx.designer.cs">
-      <DependentUpon>Homepage.aspx</DependentUpon>
+    <Compile Include="example.aspx.designer.cs">
+      <DependentUpon>example.aspx</DependentUpon>
     </Compile>
     <Compile Include="MCRS.Master.cs">
       <DependentUpon>MCRS.Master</DependentUpon>
@@ -97,6 +99,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
