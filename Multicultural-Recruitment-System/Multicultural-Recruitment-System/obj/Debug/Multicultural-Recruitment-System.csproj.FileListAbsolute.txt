@@ -55,6 +55,7 @@ C:\Users\i861470\Documents\Projects\Multicultural Recuitment Project\Multicultur
 C:\Users\i861470\Documents\Projects\Multicultural Recuitment Project\Multicultural-Recruitment-System\Multicultural-Recruitment-System\obj\Debug\Multicultural-Recruitment-System.dll
 C:\Users\i861470\Documents\Projects\Multicultural Recuitment Project\Multicultural-Recruitment-System\Multicultural-Recruitment-System\obj\Debug\Multicultural-Recruitment-System.pdb
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\Jimmy\Desktop\Multicultural-Recruitment-System\Multicultural-Recruitment-System\Multicultural-Recruitment-System\bin\Multicultural-Recruitment-System.dll.config
 C:\Users\Jimmy\Desktop\Multicultural-Recruitment-System\Multicultural-Recruitment-System\Multicultural-Recruitment-System\bin\Multicultural-Recruitment-System.dll
 C:\Users\Jimmy\Desktop\Multicultural-Recruitment-System\Multicultural-Recruitment-System\Multicultural-Recruitment-System\bin\Multicultural-Recruitment-System.pdb
@@ -112,6 +113,8 @@ C:\Users\Jimmy\Desktop\Multicultural-Recruitment-System\Multicultural-Recruitmen
 C:\Users\Jimmy\Desktop\Multicultural-Recruitment-System\Multicultural-Recruitment-System\Multicultural-Recruitment-System\obj\Debug\Multicultural-Recruitment-System.dll
 C:\Users\Jimmy\Desktop\Multicultural-Recruitment-System\Multicultural-Recruitment-System\Multicultural-Recruitment-System\obj\Debug\Multicultural-Recruitment-System.pdb
 =======
+=======
+>>>>>>> 74a90fca122e799e33c3d89d96cee207f8066230
 C:\Users\Nick\Documents\capstone\Multicultural-Recruitment-System\Multicultural-Recruitment-System\Multicultural-Recruitment-System\bin\Multicultural-Recruitment-System.dll.config
 C:\Users\Nick\Documents\capstone\Multicultural-Recruitment-System\Multicultural-Recruitment-System\Multicultural-Recruitment-System\bin\Multicultural-Recruitment-System.dll
 C:\Users\Nick\Documents\capstone\Multicultural-Recruitment-System\Multicultural-Recruitment-System\Multicultural-Recruitment-System\bin\Multicultural-Recruitment-System.pdb
@@ -224,4 +227,7 @@ C:\Users\Sandra Liu\Desktop\MSRS\Multicultural-Recruitment-System\Multicultural-
 C:\Users\Sandra Liu\Desktop\MSRS\Multicultural-Recruitment-System\Multicultural-Recruitment-System\Multicultural-Recruitment-System\obj\Debug\Multicultural-Recruitment-System.csproj.CopyComplete
 C:\Users\Sandra Liu\Desktop\MSRS\Multicultural-Recruitment-System\Multicultural-Recruitment-System\Multicultural-Recruitment-System\obj\Debug\Multicultural-Recruitment-System.dll
 C:\Users\Sandra Liu\Desktop\MSRS\Multicultural-Recruitment-System\Multicultural-Recruitment-System\Multicultural-Recruitment-System\obj\Debug\Multicultural-Recruitment-System.pdb
+<<<<<<< HEAD
+>>>>>>> 74a90fca122e799e33c3d89d96cee207f8066230
+=======
 >>>>>>> 74a90fca122e799e33c3d89d96cee207f8066230
