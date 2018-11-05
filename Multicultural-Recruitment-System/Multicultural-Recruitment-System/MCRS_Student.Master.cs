@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace Multicultural_Recruitment_System
 {
-    public partial class example : System.Web.UI.Page
+    public partial class MCRS_Student : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {

@@ -13,13 +13,13 @@ namespace Multicultural_Recruitment_System {
     public partial class MCRS {
         
         /// <summary>
-        /// NavBarItems control.
+        /// navBarItems control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder NavBarItems;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder navBarItems;
         
         /// <summary>
         /// body control.

@@ -11,7 +11,7 @@ namespace Multicultural_Recruitment_System
 {
 
 
-    public partial class example
+    public partial class WebForm1
     {
     }
 }

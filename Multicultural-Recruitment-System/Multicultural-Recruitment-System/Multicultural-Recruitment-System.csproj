@@ -67,30 +67,46 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="example.aspx" />
     <Content Include="pics\424px-Temple_T_logo.svg.png" />
     <Content Include="templebranding.css" />
     <Content Include="Web.config" />
+    <Content Include="WebForm1.aspx" />
+    <Content Include="WebForm2.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="example.aspx.cs">
-      <DependentUpon>example.aspx</DependentUpon>
+    <Compile Include="MCRS_Admin.Master.cs">
+      <DependentUpon>MCRS_Admin.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="example.aspx.designer.cs">
-      <DependentUpon>example.aspx</DependentUpon>
+    <Compile Include="MCRS_Admin.Master.designer.cs">
+      <DependentUpon>MCRS_Admin.Master</DependentUpon>
     </Compile>
-    <Compile Include="MCRS.Master.cs">
-      <DependentUpon>MCRS.Master</DependentUpon>
+    <Compile Include="MCRS_Student.Master.cs">
+      <DependentUpon>MCRS_Student.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="MCRS.Master.designer.cs">
-      <DependentUpon>MCRS.Master</DependentUpon>
+    <Compile Include="MCRS_Student.Master.designer.cs">
+      <DependentUpon>MCRS_Student.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm2.aspx.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm2.aspx.designer.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="MCRS.Master" />
+    <Content Include="MCRS_Admin.Master" />
+    <Content Include="MCRS_Student.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

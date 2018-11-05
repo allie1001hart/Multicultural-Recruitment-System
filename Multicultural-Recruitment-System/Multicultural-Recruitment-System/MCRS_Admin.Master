@@ -29,7 +29,7 @@
 
 
             <ul class="navbar-nav ml-auto">
-                <asp:ContentPlaceHolder ID="NavBarItems" runat="server"></asp:ContentPlaceHolder>
+                <asp:ContentPlaceHolder ID="navBarItems" runat="server"></asp:ContentPlaceHolder>
                 <%--
                 <li class="nav-item active">
                     <a class="nav-link" href="default.aspx">Home <span class="sr-only">(current)</span></a>
@@ -58,9 +58,6 @@
 
     <%-----------------------------------------Body/Main Content-------------------------------------%>
     <asp:ContentPlaceHolder ID="body" runat="server"></asp:ContentPlaceHolder>
-
-    <%--------------------------------------------Footer---------------------------------------------%>
-    <%--<asp:ContentPlaceHolder ID="footer" runat="server"></asp:ContentPlaceHolder>--%>
 
 </body>
 </html>
