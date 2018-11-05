@@ -67,28 +67,39 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Homepage.aspx" />
+    <Content Include="loginstyle.css" />
+    <Content Include="pics\424px-Temple_T_logo.svg.png" />
+    <Content Include="templebranding.css" />
     <Content Include="Web.config" />
+    <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Homepage.aspx.cs">
-      <DependentUpon>Homepage.aspx</DependentUpon>
+    <Compile Include="MCRS_Admin.Master.cs">
+      <DependentUpon>MCRS_Admin.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Homepage.aspx.designer.cs">
-      <DependentUpon>Homepage.aspx</DependentUpon>
+    <Compile Include="MCRS_Admin.Master.designer.cs">
+      <DependentUpon>MCRS_Admin.Master</DependentUpon>
     </Compile>
-    <Compile Include="MCRS.Master.cs">
-      <DependentUpon>MCRS.Master</DependentUpon>
+    <Compile Include="MCRS_Student.Master.cs">
+      <DependentUpon>MCRS_Student.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="MCRS.Master.designer.cs">
-      <DependentUpon>MCRS.Master</DependentUpon>
+    <Compile Include="MCRS_Student.Master.designer.cs">
+      <DependentUpon>MCRS_Student.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="MCRS.Master" />
+    <Content Include="MCRS_Admin.Master" />
+    <Content Include="MCRS_Student.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -96,6 +107,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="styles\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

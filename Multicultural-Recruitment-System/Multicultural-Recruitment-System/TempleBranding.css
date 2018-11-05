@@ -1,0 +1,15 @@
+﻿/*This stylesheet for the LKSoM MCRS cotains Temple branding options*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+
+/*This may be an alternate way to include fonts <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Arvo" / >*/
+
+nav {
+   font-family: 'Open Sans';
+   font-size: 18px;
+}
+
+header {
+    font-family: 'Arvo';
+}
