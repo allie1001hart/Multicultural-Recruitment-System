@@ -67,11 +67,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="adminlogin.html" />
     <Content Include="loginstyle.css" />
     <Content Include="pics\424px-Temple_T_logo.svg.png" />
     <Content Include="templebranding.css" />
     <Content Include="Web.config" />
-    <Content Include="WebForm1.aspx" />
+    <Content Include="studentlogin.aspx" />
+    <Content Include="application.aspx" />
+    <Content Include="contactinfo.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MCRS_Admin.Master.cs">
@@ -89,12 +92,26 @@
       <DependentUpon>MCRS_Student.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="studentlogin.aspx.cs">
+      <DependentUpon>studentlogin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="studentlogin.aspx.designer.cs">
+      <DependentUpon>studentlogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="application.aspx.cs">
+      <DependentUpon>application.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="application.aspx.designer.cs">
+      <DependentUpon>application.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contactinfo.aspx.cs">
+      <DependentUpon>contactinfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contactinfo.aspx.designer.cs">
+      <DependentUpon>contactinfo.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
